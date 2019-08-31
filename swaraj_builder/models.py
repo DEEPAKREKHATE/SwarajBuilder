@@ -24,7 +24,7 @@ class Project(models.Model):
 
 class Quest(models.Model):
         first_name = models.CharField(max_length=30)
-        phone = models.IntegerField()
+        phone = models.CharField(max_length=20)
         subject = models.CharField(max_length=50)
         message = models.TextField()
         enquiry_date = models.DateTimeField(default=datetime.now(),blank=True)
