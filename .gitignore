@@ -1,3 +1,5 @@
 db.sqlite3
 Media
-*.pyc
+.pyc
+.gitignore
+venv/*
